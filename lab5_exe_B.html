@@ -8,7 +8,25 @@
     </head>
 
     <body>
-    <!-- JavaScript will be linked here -->
+
+        <script>
+            let firstName = "John";
+            let lastName = "Doe";
+            let age = 25;
+
+            let fullName = firstName + " " + lastName;
+            console.log(fullName);
+
+            let currentYear = new Date().getFullYear();
+            let birthYear = currentYear - age;
+            console.log(birthYear);
+
+            console.log(fullName.length);
+            console.log(fullName.toUpperCase());
+
+            console.log('Hello, my name is ${fullName} and I am ${age} old. I was born in ${birthYear}.')
+
+        </script>
     </body>
 
 </html >
